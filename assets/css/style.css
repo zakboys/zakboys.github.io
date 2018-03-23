@@ -135,11 +135,22 @@
 .cursor-pointer{
     cursor:pointer;
 }
+.contact_info{
+    position: relative;
+}
 .adderes_bar{
     background: #fff;
     -moz-box-shadow: -5px -5px 5px #888;
 -webkit-box-shadow: -5px -5px 5px #888;
 box-shadow: -5px -5px 5px #888;
+position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 1024;
+display: block;
+overflow: hidden;
+margin: 0;
 }
 .font-20px{
     font-size: 20px;
