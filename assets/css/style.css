@@ -5,7 +5,7 @@
 }
 
 .intro .intro__content {
-    background: #3300ff;
+    background: rgba(52, 58, 64, 0.8);
     position: absolute;
     top:50%;
     left: 50%;
@@ -23,16 +23,16 @@
 }
 
 .intro .intro__content:after {
-    border-right: 2px solid #30f;
-    border-bottom: 2px solid #30f;
+    border-right: 2px solid #343A40;
+    border-bottom: 2px solid #343A40;
     left: 8px;
     top:8px;
 
 }
 
 .intro .intro__content:before {
-    border-left: 2px solid #30f;
-    border-top: 2px solid #30f;
+    border-left: 2px solid #343A40;
+    border-top: 2px solid #343A40;
     left: -8px;
     top: -8px;
     bottom: 8px;
@@ -76,7 +76,7 @@
 }
 
 .border-dark{
-    border-bottom: 5px solid #30f;
+    border-bottom: 5px solid #343A40;
 }
 .border-light{
     border-bottom: 5px solid #fff;
@@ -87,17 +87,16 @@
 .service-widget{
     transition: all .1s;
     position: relative;
-    color: #30f;
+    color: #343A40;
 }
 .service-widget svg{
     width: 50%;
-    fill: #30f;
 };
 .service-widget svg path{
-    fill: #30f;
+    fill: #343A40;
 }
 .service-widget:hover{
-    background: #30f;
+    background: #343A40;
     color: #f8f9fa;
 }
 .service-widget:hover svg path{
@@ -108,7 +107,7 @@
     content: '';
     width: 100%;
     height: 100%;
-    border: 2px solid #30f;
+    border: 2px solid #343A40;
     left: -8px;
     top: -8px;
     z-index: -
